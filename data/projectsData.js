@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Note Taking App',
+    description: `Demo for a note taking app`,
+    imgSrc: '/static/images/NoteTaking.PNG',
+    href: 'https://ikanotes.netlify.app/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Real News??',
+    description: `Uses reddit api to display news taken from r/nottheonion`,
+    imgSrc: '/static/images/RealNews.PNG',
+    href: 'https://true-story.netlify.app/',
   },
 ]
 
