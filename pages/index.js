@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 
 import NewsletterForm from '@/components/NewsletterForm'
+import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
 
 const MAX_DISPLAY = 5
 
@@ -25,9 +26,31 @@ export default function Home({ posts }) {
             Hi I'm Hoang
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-100">Software Engineer</p>
-          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Check me out 
-          </p> */}
+
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-300">
+            Read more &nbsp;
+            <Link className="ml-2 mr-2 font-normal text-black" href="/about">
+              <RoughNotation
+                show
+                type="highlight"
+                animationDelay={250}
+                animationDuration={2000}
+                color={'pink'}
+              >
+                about me
+              </RoughNotation>
+            </Link>
+            &nbsp; or &nbsp;
+            <RoughNotation
+              show
+              type="highlight"
+              animationDelay={250}
+              animationDuration={2000}
+              color={'violet'}
+            >
+              my resume
+            </RoughNotation>
+          </p>
         </div>
       </div>
       {/* {siteMetadata.newsletter.provider !== '' && (
