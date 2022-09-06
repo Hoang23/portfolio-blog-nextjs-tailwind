@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Lighting Portal',
+    description: `Portal for local councils to track progress and improve their environmental outcomes`,
+    imgSrc: '/static/images/lighting-portal.png',
+    href: '/blog/lighting-portal',
+  },
+  {
     title: 'Note Taking App',
     description: `Demo for a note taking app`,
     imgSrc: '/static/images/NoteTaking.PNG',
@@ -12,5 +18,4 @@ const projectsData = [
     href: 'https://true-story.netlify.app/',
   },
 ]
-
 export default projectsData

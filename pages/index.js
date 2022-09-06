@@ -23,11 +23,10 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Hello, <br></br>
-            I'm{' '}
-            <span className="text-grey-900 dark:text-grey-900 text-3xl font-bold lg:text-5xl">
-              Hoang
-            </span>
+            Hello,
+          </h1>
+          <h1 className="text-3xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            I'm Hoang
           </h1>
           <p className="lg:text-2x my-2 text-lg lg:my-4">Software Engineer</p>
 
