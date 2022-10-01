@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'FFGG',
     description: `Find Gamers Fighting Games allows you to find people who play the same fighting games and practice against characters they main`,
-    imgSrc: '/static/images/ffgg.png',
+    imgSrc: '/static/images/ffgg.PNG',
     href: 'https://ggff-hoang23.vercel.app/',
   },
   {
