@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'FFGG',
+    description: `Find Gamers Fighting Games allows you to find people who play the same fighting games and practice against characters they main`,
+    imgSrc: '/static/images/ffgg.png',
+    href: 'https://ggff-hoang23.vercel.app/',
+  },
+  {
     title: 'Lighting Portal',
     description: `Portal for local councils to track progress and improve their environmental outcomes`,
     imgSrc: '/static/images/lighting-portal.png',
